@@ -1,6 +1,6 @@
 ifneq ($(KERNELRELEASE),)
-obj-m += ds92lx1622.o
-ds92lx1622-objs:= main.o
+obj-m += ds92lx1621.o
+ds92lx1621-objs:= main.o
 else
 KDIR := ~/armadeus/buildroot/output/build/linux-2.6.29.6/
 CPU := arm

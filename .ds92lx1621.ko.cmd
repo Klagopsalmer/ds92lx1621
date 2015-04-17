@@ -1,0 +1,1 @@
+cmd_/home/schnegg/workspace/ds92lx1621/ds92lx1621.ko := ~/armadeus/buildroot/output/host/usr/bin/arm-linux-ld -EL -r   --build-id -o /home/schnegg/workspace/ds92lx1621/ds92lx1621.ko /home/schnegg/workspace/ds92lx1621/ds92lx1621.o /home/schnegg/workspace/ds92lx1621/ds92lx1621.mod.o

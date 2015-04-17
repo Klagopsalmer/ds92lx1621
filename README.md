@@ -1,6 +1,6 @@
 ## Synopsis
 
-Linux driver for Texas Instruments DS92LX1622 deserializer.
+Linux driver for Texas Instruments DS92LX1621 serializer.
 
 ## Contributors
 
