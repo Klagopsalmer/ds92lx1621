@@ -1,1 +1,1 @@
-cmd_/home/schnegg/workspace/ds92lx1621/ds92lx1621.o := ~/armadeus/buildroot/output/host/usr/bin/arm-linux-ld -EL    -r -o /home/schnegg/workspace/ds92lx1621/ds92lx1621.o /home/schnegg/workspace/ds92lx1621/main.o 
+cmd_/home/schnegg/workspace/ds92lx1621/ds92lx1621.o := /home/schnegg/armadeus/buildroot/output/host/usr/bin/arm-linux-ld -EL    -r -o /home/schnegg/workspace/ds92lx1621/ds92lx1621.o /home/schnegg/workspace/ds92lx1621/main.o 
