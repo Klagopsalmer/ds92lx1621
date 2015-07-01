@@ -29,20 +29,7 @@ static int ds92lx1621_probe(struct i2c_client *client, const struct i2c_device_i
 	{
 		pr_err("error standby\n");
 	}
-/*
-	temp = i2c_smbus_read_byte_data(client, TRFB_REG_ADDR);
-	if (temp > 0)
-	{
-		if(0>i2c_smbus_write_byte_data(client, TRFB_REG_ADDR, temp & ~TRFB_REG_ADDR))
-		{
-			pr_err("error write trfb ID\n");
-		}
-	}
-	else
-	{
-		pr_err("error read trfb ID\n");
-	}
-*/
+
 	if (0 > i2c_smbus_write_byte_data(client, SLAVE_ID_REG_ADDR, 0x42))
 	{
 		pr_err("error slave ID\n");

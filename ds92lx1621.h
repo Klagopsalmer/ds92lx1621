@@ -1,8 +1,12 @@
 /*
- * ds92lx1621.h
+ * Texas Instruments DS92LX1621 serializer driver
  *
- *  Created on: Apr 17, 2015
- *      Author: schnegg
+ * Copyright (C) 2015 Digger DTR
+ * Alexandre Schnegg <aschnegg@digger.ch>
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License version 2 as
+ * published by the Free Software Foundation.
  */
 
 #ifndef DS92LX1621_H_
